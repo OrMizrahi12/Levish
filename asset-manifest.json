@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Levish/static/css/main.06127437.css",
+    "main.js": "/Levish/static/js/main.25009483.js",
+    "static/js/787.03bd8bb9.chunk.js": "/Levish/static/js/787.03bd8bb9.chunk.js",
+    "static/media/F7.jpg": "/Levish/static/media/F7.230636e285081e35030c.jpg",
+    "static/media/BulletLevish.png": "/Levish/static/media/BulletLevish.732145719177cad3a578.png",
+    "static/media/F6.jpg": "/Levish/static/media/F6.a3ac84bccb95543ea836.jpg",
+    "static/media/F1.jpg": "/Levish/static/media/F1.aa84ba102846c2201a2a.jpg",
+    "static/media/F3.jpg": "/Levish/static/media/F3.c815681c8edc138f8ae9.jpg",
+    "static/media/F4.jpg": "/Levish/static/media/F4.618629fc1bf32e8166d4.jpg",
+    "static/media/F2.jpg": "/Levish/static/media/F2.548371683c0c521a85ea.jpg",
+    "static/media/LevishLogo.png": "/Levish/static/media/LevishLogo.01962fceb893c2c6c41e.png",
+    "static/media/FreckelsServiseImg.jpg": "/Levish/static/media/FreckelsServiseImg.707703f9f6325389db1f.jpg",
+    "static/media/LipsServiseImg.jpg": "/Levish/static/media/LipsServiseImg.15465c09c3e59d7108d9.jpg",
+    "static/media/Qside.png": "/Levish/static/media/Qside.a4d6eecca76beaa2f839.png",
+    "static/media/newRunnerSlideE (3).png": "/Levish/static/media/newRunnerSlideE (3).536e88ec188050d106dd.png",
+    "static/media/עיצוב ללא שם.svg": "/Levish/static/media/עיצוב ללא שם.ba7f3ae8a2b87f2a7d48.svg",
+    "static/media/slick.svg": "/Levish/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Levish/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Levish/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Levish/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Levish/index.html",
+    "main.06127437.css.map": "/Levish/static/css/main.06127437.css.map",
+    "main.25009483.js.map": "/Levish/static/js/main.25009483.js.map",
+    "787.03bd8bb9.chunk.js.map": "/Levish/static/js/787.03bd8bb9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06127437.css",
+    "static/js/main.25009483.js"
+  ]
+}
