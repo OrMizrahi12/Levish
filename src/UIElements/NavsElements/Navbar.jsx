@@ -2,7 +2,7 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import LevishLogo from '../../Images/FrecelsImges/LevishLogo.png'
+import LevishLogo from '../../Images/LogoLevish.jpg'
 import '../../css/Navs/Navbar.css'
 import { useNavigate } from 'react-router-dom'
 
@@ -21,7 +21,7 @@ const MyNavbar = () => {
                             className="d-inline-block align-top"
                         />
                     </Nav.Link>
-                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                    <Navbar.Toggle style={{backgroundColor:"rgb(243, 197, 197)", border:"solid 3px rgb(25,100,57)"}} aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <div className='elementsCenterNav'>
                             <Nav className="me-auto">

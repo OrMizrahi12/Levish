@@ -1,7 +1,8 @@
 import React from 'react'
-import BulletImg from '../../Images/FrecelsImges/BulletLevish.png'
+import BulletImg from '../../Images/Logo.png'
 import '../../css/TxtElements/Bullet.css'
 import { bulltsArr } from '../../Data/BulletsArr'
+
 const Bullets = () => {
   return (
     <div className='bulletCard'>

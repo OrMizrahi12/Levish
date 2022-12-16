@@ -16,13 +16,13 @@ const Recomendeds = () => {
         autoplay: true,
         autoplaySpeed: 2000,
     };
-    
+
     return (
         <>
             <div className="imgslider" id='recomenAnchor'>
                 <Slider {...settings}>
                     {RecomendedsAr.map((item) => (
-                        <div style={{textAlign:"center"}}>
+                        <div style={{ textAlign: "center" }}>
                             <div id="testimonial-slider" class="owl-carousel mx-auto">
                                 <div class="testimonial">
                                     <div class="pic">

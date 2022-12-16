@@ -12,6 +12,7 @@
     font-weight: 600;
     animation:MyCallMeBtn 5s infinite;
     border-radius: 10px;
+    
 }
 .elementCenter{
   text-align: center;
@@ -21,7 +22,7 @@
 
     0%{
        background-color: rgb(25,100,57);
-       box-shadow: 10px 10px 10px  rgb(228, 167, 171);
+       box-shadow: 10px 10px 10px  #e4a7ab;
 
 
     }

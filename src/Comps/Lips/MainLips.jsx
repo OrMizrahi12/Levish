@@ -5,22 +5,20 @@ import Form from '../../UIElements/Forms/Form'
 import MainDescription from '../../UIElements/TxtElements/MainDescription'
 import ShowGallery from '../../UIElements/Carousels/ShowGallery'
 import WordInMiddleOfLine from '../../UIElements/TxtElements/WordInMiddleOfLine'
-import { ArrImajes } from '../../Data/Freckels/ImgArr'
-import Recomendeds from '../../UIElements/Carousels/Recomendeds'
 import QandR from '../../UIElements/TxtElements/QandR'
 import { arrQandR_L } from '../../Data/Lips/QandRLipsArr'
 import { txtLips } from '../../Data/Lips/TxtLips'
-import Explanation from '../../UIElements/TxtElements/Explanation'
 import MyAccordion from '../../UIElements/TxtElements/MyAccordion '
 import Steps from '../../UIElements/Cards/Steps'
 import { arrStepsLips } from '../../Data/Lips/StepsArrLips'
 import { txtSolve } from '../../Data/Lips/TxtLips'
+import { ArrImajesLips } from '../../Data/Lips/Cust_L_arr'
 
 const MainLips = () => {
   return (
     <div>
-      <MainDescription title={"היי את"} description={txtSolve} />
-      <ShowGallery arr={ArrImajes} />
+      <MainDescription title={"היי את"} description={txtSolve}  perfectSolution={"הפתרון המושלם עבורך"} />
+      <ShowGallery arr={ArrImajesLips} />
       <div style={{ marginTop: 60 }}>
         <WordInMiddleOfLine value={"בואי נדבר"} />
       </div>

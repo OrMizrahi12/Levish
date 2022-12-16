@@ -18,19 +18,15 @@ const SideNavber = () => {
         document.getElementById("btnHerrow").hidden =false;
 
     } 
-    
-
     return (
         <>
             <div id="mySidenav" class="sidenav">
                <div className='text-center'>
                <a style={{ marginTop: 80 }} class="closebtn" onClick={closeNav}>&times;</a>
-                <a href="#recomenAnchor">המלצות</a>
                 <a href="#contactAnchor">בואי נדבר</a>
                 <a href="#explainAnchor">מה זה</a>
                 <a href="#qAndRAnchor">שאלות </a>
                 <a href="#stepsAnchor">צעדים</a>
-
                 </div>
             </div>
             {/* <span onClick={openNav}>open</span> */}

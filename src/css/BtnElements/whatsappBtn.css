@@ -1,7 +1,7 @@
 .A-float{
 	position:fixed;
-	width:60px;
-	height:60px;
+	width:50px;
+	height:50px;
 	bottom:70px;
 	right:40px;
 	background-color:#00752b;
@@ -14,5 +14,9 @@
 }
 
 .A-my-float{
-	margin-top:16px;
+	margin-top:10px;
+}
+
+.A-my-float:hover{
+	color: pink;
 }

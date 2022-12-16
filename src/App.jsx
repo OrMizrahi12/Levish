@@ -16,16 +16,13 @@ function App() {
   return (
     <>
       <div id='Top'>
-
-        
         <p className='offerParagraph'> 🖤יום של הנחות </p>
         <MyNavbar />
         <div className='mainPattern'>
           <SideNavber />
           <i class="fa fa-free-code-camp" aria-hidden="true"></i>
-
           <Routes>
-            <Route  path='/' element={<Home />} />
+            <Route path='/' element={<Home />} />
             <Route path='/Freckels' element={<MainFreckels />} />
             <Route path='/Lips' element={<MainLips />} />
             <Route path='/ContactUs' element={<ContactUs />} />
@@ -33,7 +30,7 @@ function App() {
         </div>
           <WhatsAppBtn />
           <div className='instegramBtn'>
-            <FaInstagram onClick={() => window.open("https://instagram.com/levishbeautyspot?igshid=Nzg3NjI1NGI=")} style={{ width: 50, height: 50 }} />
+            <FaInstagram onClick={() => window.open("https://instagram.com/levishbeautyspot?igshid=Nzg3NjI1NGI=")} style={{ width: 30, height: 30 }} />
           </div>
         <Footer />
       </div>

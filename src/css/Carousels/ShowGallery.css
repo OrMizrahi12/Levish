@@ -1,6 +1,8 @@
 .gallery {
     height: 300px;
-    width: 400px;    
+    width: 400px; 
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;   
 }
 .wrapGallery{
     margin-bottom: 30px;
@@ -9,21 +11,23 @@
     max-width: 400px;
     text-align: center;
     border-radius: 10px;
+
 }
 .recomendedBlock{
-    background-color: rgb(243, 197, 197);
+   background-color: rgb(243, 197, 197);
    border-bottom:solid 2px rgb(25,100,57) ;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;  
+
 }
 .recomendedTxtDesc{
-    color:rgb(25,100,57) ; 
+    color:rgb(25,100,57) ;
 }
 .instegramImg{
     width: 170px;
     height: 170px;
-    /* transform: translateX(-10%); */
     margin-top: -60px; 
-
 }
 .instegramAcountName{
-    margin-top: -60px;
+    margin-top: -45px;
 }

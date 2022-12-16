@@ -1,6 +1,6 @@
 import React from 'react'
 import '../../css/TxtElements/QandR.css'
-import BulletLevish from '../../Images/FrecelsImges/BulletLevish.png'
+import BulletLevish from '../../Images/BulletLevish.png'
 import Qside from '../../Images/Qside.png'
 
 
