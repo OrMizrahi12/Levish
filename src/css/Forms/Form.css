@@ -1,0 +1,63 @@
+.MainCard{
+  box-shadow: 0px 5px 10px rgb(0, 0, 0);
+  margin: 10px;
+ animation:my 5s infinite;
+ background-color: rgb(228,167,171) ;
+ padding: 15px;
+ margin-top: 60px;
+ border-radius: 0px;
+ border-radius: 10px;
+}
+.elementCenter{
+  text-align: center;
+}
+
+.textInput{
+  background-color: transparent;
+  margin: 15px;
+  width: 300px;
+  padding: 16px;
+  border-top: 0ch;
+  border-left: 0ch;
+  border-right: 0ch;
+  border-bottom: solid 1px rgb(25,100,57);
+}
+::placeholder{
+  color:  rgb(25,100,57);
+  text-align: center;
+  font-weight: bold;
+
+}
+.BtnForm{
+  width: 310px;
+  margin-top: 15px;
+  padding: 16px;
+  background-color: transparent;
+  border: solid 1px rgb(25,100,57);
+  color:rgb(25,100,57) ;
+  letter-spacing:3px;
+  font-weight: bold;
+  font-size: 22px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.BtnForm:hover{
+    animation: shake 1.2s infinite;
+
+}
+@keyframes shake {
+    10%, 90% {
+        transform: translate3d(0, 0, 0);
+      }
+      20%, 80% {
+        transform: translate3d(0, 3px,3px);
+      }
+      
+      30%, 50%, 70% {
+        transform: translate3d(0, -3px, -3px);
+      }
+      40%, 60% {
+        transform: translate3d(0, 3px, 3px);
+      }
+}

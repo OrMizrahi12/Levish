@@ -1,0 +1,93 @@
+.testimonial {
+    box-shadow: 0px 5px 10px rgb(0, 0, 0);
+    border-right: 4px solid rgb(228,167,171);
+    box-shadow: 5px 5px 10px rgb(228,167,171)(0, 0, 0, 0.1);
+    padding: 30px 30px 30px 130px;
+    margin: 0 15px 30px 15px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+    
+  }
+  .testimonial:before {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: -17px;
+    border-top: 25px solid rgb(228,167,171);
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    transform: rotate(45deg);
+  }
+  .testimonial:after {
+    content: "";
+    position: absolute;
+    top: -4px;
+    left: -17px;
+    border-top: 25px solid rgb(228,167,171);
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    transform: rotate(135deg);
+  }
+  .testimonial .pic {
+    /* display: inline-block; */
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    /* position: absolute; */
+    top: 60px;
+    left: 20px;
+  }
+  .testimonial .pic img {
+    width: 100%;
+    height: auto;
+  }
+  .testimonial .description {
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: rgb(25,100,57);
+    line-height: 25px;
+    margin-bottom: 15px;
+  }
+  .testimonial .title {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgb(25,100,57);
+    margin: 0;
+  }
+  .testimonial .post {
+    display: inline-block;
+    font-size: 17px;
+    color: rgb(25,100,57);
+  }
+  .owl-theme .owl-controls .owl-page span {
+    border: 2px solid rgb(25,100,57);
+    background: #fff !important;
+    border-radius: 0 !important;
+    opacity: 1;
+  }
+  .owl-theme .owl-controls .owl-page.active span,
+  .owl-theme .owl-controls .owl-page:hover span {
+    background: rgb(25,100,57) !important;
+    border-color: rgb(25,100,57);
+  }
+  @media only screen and (max-width: 767px) {
+    .testimonial {
+      padding: 20px;
+      text-align: center;
+    }
+    .testimonial .pic {
+      /* display: block; */
+      position: static;
+      margin: 0 auto 15px;
+    }
+  }
+  .slick-slide img {
+    margin: auto;
+    width: 50%;
+    height: 50%;
+}

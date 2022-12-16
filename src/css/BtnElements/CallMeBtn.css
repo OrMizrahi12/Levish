@@ -1,0 +1,42 @@
+
+
+ #MyCallMeBtn{
+    width:300px;
+    height:70px;
+    background: rgb(25,100,57);
+    border-style: none;
+    color:rgb(253, 253, 253);
+    text-shadow: #ff00dd;
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    animation:MyCallMeBtn 5s infinite;
+    border-radius: 10px;
+}
+.elementCenter{
+  text-align: center;
+}
+
+  @keyframes MyCallMeBtn {
+
+    0%{
+       background-color: rgb(25,100,57);
+       box-shadow: 10px 10px 10px  rgb(228, 167, 171);
+
+
+    }
+    50%{
+        background-color: rgb(228,167,171);
+        box-shadow: 10px 10px 10px rgb(25,100,57);
+
+      }
+    100%{
+        background-color: rgb(25,100,57);
+        box-shadow: 10px 10px 10px  rgb(228, 167, 171);
+
+
+    }
+  }
+
+
+

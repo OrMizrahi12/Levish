@@ -1,0 +1,25 @@
+#titleAnimation {
+    color: rgb(8, 8, 8);
+    animation: ani1 2s;
+    text-align: center;
+    font-size: 90px;
+    color:  rgb(25,100,57);
+    font-family: 'Oranienbaum'; 
+    text-shadow: 3px 6px 0px  rgb(153,196,171);
+    font-weight: 500;
+    
+}
+
+@keyframes ani1 {
+    from {
+        letter-spacing: 50px;
+        filter: blur(5px);
+        opacity: 0;
+    }
+
+    to {
+        letter-spacing: 0;
+        filter: blur(0);
+        opacity: 1px;
+    }
+}

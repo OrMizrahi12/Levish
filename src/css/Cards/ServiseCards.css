@@ -1,0 +1,94 @@
+
+.card {
+  display: block;
+  color: initial;
+  text-decoration: none;
+  width: 300px;
+  height: 200px;
+  background:  rgb(228,167,171);
+  box-shadow: 0 35px 80px rgb(0,0,0,0.15);
+  transition: 0.5s;
+  position: relative;
+  margin-top: 80px;
+}
+
+.card:hover {
+  height: 350px;
+}
+.card-image {
+  display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	top: -50px;
+	background: transparent;
+	height: 120px;
+	width: 120px;
+	transition: 0.5s;
+	box-shadow: 0 35px 80px rgb(0,0,0,0.15);
+	overflow: hidden;
+}
+.card:hover .card-image {
+	height: 190px;
+	width: 190px;
+  top: -20px;
+}
+.card-image img {
+  width: 100%;
+}
+.card-content {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.card-text {
+  color: rgb(25,100,57);
+	padding: 20px 40px;
+	text-align: center;
+	width: 100%;
+  transform: translateY(100px);
+}
+.card:hover .card-text {
+	transform: none;
+  margin-bottom: -45px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+.card-subtitle {
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+.card-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.card-button {
+  padding: 10px 15px;
+  font-size: 12px;
+  letter-spacing: 3px;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-weight: 600;
+  background: rgb(25,100,57);
+  width: 100%;
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+.card-sentence {
+  margin-bottom: -5px;
+
+  font-size: 12px;
+  opacity: 0.7;
+  padding: 15px 0;
+}
