@@ -11,6 +11,7 @@ import Footer from './UIElements/NavsElements/Footer';
 import Home from './Comps/Home';
 import SideNavber from './UIElements/NavsElements/SideNavber';
 import { FaInstagram } from 'react-icons/fa'
+import PhoneBtn from './UIElements/BtnElements/PhoneBtn';
 
 function App() {
   return (
@@ -28,10 +29,8 @@ function App() {
             <Route path='/ContactUs' element={<ContactUs />} />
           </Routes>
         </div>
+        <PhoneBtn />
           <WhatsAppBtn />
-          <div className='instegramBtn'>
-            <FaInstagram onClick={() => window.open("https://instagram.com/levishbeautyspot?igshid=Nzg3NjI1NGI=")} style={{ width: 30, height: 30 }} />
-          </div>
         <Footer />
       </div>
     </>

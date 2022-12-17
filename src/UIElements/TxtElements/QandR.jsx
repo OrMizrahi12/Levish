@@ -15,7 +15,7 @@ const QandR = ({ QandRArr }) => {
                             <div className='sender'>
                                 <span class="icon"> <img className='QImg' src={Qside} /> </span>
                             </div>
-                            <div class="content">{element.mark} {element.content} </div>
+                            <div class="content">{element.content} <br />{element.mark} </div>
                         </div> : <div className="msg msg_from">
                             <div class="recepient">
                                 <span class="icon"> <img className='Aimg' src={BulletLevish} /> </span>

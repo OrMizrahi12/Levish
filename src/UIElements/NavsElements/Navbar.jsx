@@ -5,6 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import LevishLogo from '../../Images/LogoLevish.jpg'
 import '../../css/Navs/Navbar.css'
 import { useNavigate } from 'react-router-dom'
+import { BsTelephone } from 'react-icons/bs';
 
 
 const MyNavbar = () => {
