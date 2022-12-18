@@ -15,3 +15,7 @@ Files structures:
 
 - css: all the css files
 - images: all the... 
+- UIElements: generic components (UI elements) for reuses.
+- Comps: contain all the pages of the website (home, about, etc..). 
+
+
