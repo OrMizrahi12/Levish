@@ -11,6 +11,7 @@ import { arrQandR_F } from '../../Data/Freckels/QandRFreckelsArr'
 import { txtFreckels, txtSolve } from '../../Data/Freckels/TxtFreckels'
 import MyAccordion from '../../UIElements/TxtElements/MyAccordion '
 import Steps from '../../UIElements/Cards/Steps'
+import SelfAppearance from '../../UIElements/Cards/SelfAppearance'
 
 
 
@@ -19,6 +20,9 @@ const MainFreckels = () => {
     <div>
       <MainDescription title={"היי את"} description={txtSolve} perfectSolution={"הפתרון המושלם עבורך"} />
       <ShowGallery arr={ArrImajes} />
+      <div style={{ marginTop: 40 }}>
+        <SelfAppearance /> 
+      </div>
       <div style={{ marginTop: 80 }}>
         <WordInMiddleOfLine value={"בואי נדבר"} />
       </div>

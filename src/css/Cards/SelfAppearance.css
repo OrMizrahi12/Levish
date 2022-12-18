@@ -1,0 +1,23 @@
+.appearanceImg{
+  width: 130px;
+  height: 130px;
+  border-radius: 100%;
+  border: solid 2px rgb(228,167,171);
+}
+.weraperAppearanceImg{
+  text-align: center;
+}
+.txtPatern{
+    padding: 10px;
+    margin: 10px;
+    max-width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    border-right: solid rgb(25,100,57);
+    border-left: solid rgb(25,100,57);
+    background-color:  rgb(228,167,171);
+    box-shadow: 0px 0px 2px;
+    color: rgb(25,100,57);
+    font-weight: 500;
+    
+}

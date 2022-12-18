@@ -13,12 +13,16 @@ import Steps from '../../UIElements/Cards/Steps'
 import { arrStepsLips } from '../../Data/Lips/StepsArrLips'
 import { txtSolve } from '../../Data/Lips/TxtLips'
 import { ArrImajesLips } from '../../Data/Lips/Cust_L_arr'
+import SelfAppearance from '../../UIElements/Cards/SelfAppearance'
 
 const MainLips = () => {
   return (
     <div>
       <MainDescription title={"היי את"} description={txtSolve}  perfectSolution={"הפתרון המושלם עבורך"} />
       <ShowGallery arr={ArrImajesLips} />
+      <div style={{ marginTop: 40 }}>
+        <SelfAppearance /> 
+      </div>
       <div style={{ marginTop: 60 }}>
         <WordInMiddleOfLine value={"בואי נדבר"} />
       </div>

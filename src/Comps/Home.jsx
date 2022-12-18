@@ -14,6 +14,7 @@ import CallMeBtn from '../UIElements/BtnElements/CallMeBtn'
 import Form from '../UIElements/Forms/Form'
 import Steps from '../UIElements/Cards/Steps'
 import { arrStepsHome } from '../Data/Home/StepsArrHome'
+import SelfAppearance from '../UIElements/Cards/SelfAppearance'
 
 
 const Home = () => {
@@ -31,6 +32,24 @@ const Home = () => {
         </div>
         <div style={{ marginTop: 130 }} >
           <ServiseCards />
+        </div>
+        <div id='ourServise' style={{ marginTop: 80 }}>
+          <WordInMiddleOfLine value={"?מי אני"} />
+        </div>
+        <div style={{ marginTop: 40 }}>
+          <SelfAppearance />
+        </div>
+        <div style={{ marginTop: 80 }}>
+          <WordInMiddleOfLine value={"בואי נדבר"} />
+        </div>
+        <div style={{ marginTop: 40 }} >
+          <CallMeBtn ActionText={"התקשרי אליי"} />
+        </div>
+        <div style={{ marginTop: -120 }}>
+          <WordInMiddleOfLine value={"או"} />
+        </div>
+        <div>
+          <Form />
         </div>
         <div style={{ marginTop: 80 }}>
           <WordInMiddleOfLine value={"מה זה איפור קבוע"} />

@@ -23,6 +23,7 @@
 	-ms-flex-align: center;
 	align-items: center;
 	text-decoration: none;
+	border: solid 1px;
 }
 
 .call-buton .cc-calto-action-ripple i {
