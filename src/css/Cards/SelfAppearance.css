@@ -13,10 +13,10 @@
     max-width: 300px;
     text-align: center;
     border-radius: 10px;
-    border-right: solid rgb(25,100,57);
-    border-left: solid rgb(25,100,57);
-    background-color:  rgb(228,167,171);
-    box-shadow: 0px 0px 2px;
+    border-right: solid 4px rgb(25,100,57);
+    border-left: solid 4px rgb(25,100,57);
+    background-color:  rgb(241, 241, 241);
+    box-shadow: 0px 0px 1px;
     color: rgb(25,100,57);
     font-weight: 500;
     

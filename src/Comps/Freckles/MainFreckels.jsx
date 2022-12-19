@@ -12,6 +12,7 @@ import { txtFreckels, txtSolve } from '../../Data/Freckels/TxtFreckels'
 import MyAccordion from '../../UIElements/TxtElements/MyAccordion '
 import Steps from '../../UIElements/Cards/Steps'
 import SelfAppearance from '../../UIElements/Cards/SelfAppearance'
+import VidowWork from '../../UIElements/VideoElements/VidowWork'
 
 
 
@@ -23,6 +24,12 @@ const MainFreckels = () => {
       <div style={{ marginTop: 40 }}>
         <SelfAppearance /> 
       </div>
+      <div id='ourServise' style={{ marginTop: 80 }}>
+          <WordInMiddleOfLine value={"מעניקה למטופלות שלי הכל"} />
+        </div>
+        <div style={{ marginTop: 80 }}>
+        <VidowWork />
+        </div>
       <div style={{ marginTop: 80 }}>
         <WordInMiddleOfLine value={"בואי נדבר"} />
       </div>

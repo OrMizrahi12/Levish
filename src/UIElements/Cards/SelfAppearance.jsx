@@ -1,16 +1,19 @@
 import React from 'react'
 import '../../css/Cards/SelfAppearance.css'
-import img from '../../Images/serviseImg/FreckelsServiseImg.jpg'
+import img from '../../Images/NoaImg.jpg'
+
 
 const SelfAppearance = () => {
+
   return (
     <div>
     <div className='weraperAppearanceImg'>
     <img className='appearanceImg' src={img} />
     <p className='txtPatern mx-auto'>
-      ,היי אני נועה<br />
-       אני עוסקת באיפור קבוע מאז שאני זוכרת את עצמי. 
-      אני נותנת שירות ללא פשרות למעל 30 לקוחות מרוצות בחודש. אשמח שתיהי הלקוחה המרוצה ההבאה שלי
+      ,היי אהובה שמי נועה<br />
+      אני אמנית איפור קבוע והדגשת תווי פנים בשיטות אירופאיות יחודיות וחדישות. אני אוהבת לתת שירות וטיפול ללא פשרות - בשביל שאת תיהי הכי מרוצה שאפשר. 
+      מחכה לך בקליניקה שלי 
+      <br />🖤
      </p>
     </div>
     </div>

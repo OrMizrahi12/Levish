@@ -6,13 +6,14 @@ import L5 from '../../Images/LipsImges/L5.jpg'
 import L6 from '../../Images/LipsImges/L6.jpg'
 import L7 from '../../Images/LipsImges/L7.jpg'
 import L8 from '../../Images/LipsImges/L8.jpg'
+import L9 from '../../Images/LipsImges/L9.jpg'
 
 
 
 export const ArrImajesLips = [
     {
         name: "הודיה גנון",
-        img:  L5, 
+        img:  L7, 
         recomended: `"!מאוהבת בשפתיים שלי, יצא עדין כמו שהבטחת..תודה על הכל"`
     },
     {
@@ -32,7 +33,7 @@ export const ArrImajesLips = [
     },
     {
         name: "הודיה גנון",
-        img: L7, 
+        img: L5, 
         recomended: `"!מאוהבת בשפתיים שלי, יצא עדין כמו שהבטחת..תודה על הכל"`
     },
     {
@@ -49,6 +50,10 @@ export const ArrImajesLips = [
         name: "לוראל קיי",
         img: L1, 
         recomended: `"נועה הייתה עדינה, הטיפול בקושי הורגש, וסך הכל אני מרוצה בכל התהליך והתוצאה"`
+    },
+    {
+        name:"שי צוריה",
+        img:L9, 
+        recomended: "עשיתי את הטיפול המשולב של נמשים ושפתיים, אין תוצאה טבעית כזאת פשוט יצא מושלם"
     }
-
 ]

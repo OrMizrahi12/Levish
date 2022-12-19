@@ -14,6 +14,7 @@ import { arrStepsLips } from '../../Data/Lips/StepsArrLips'
 import { txtSolve } from '../../Data/Lips/TxtLips'
 import { ArrImajesLips } from '../../Data/Lips/Cust_L_arr'
 import SelfAppearance from '../../UIElements/Cards/SelfAppearance'
+import VidowWork from '../../UIElements/VideoElements/VidowWork'
 
 const MainLips = () => {
   return (
@@ -23,6 +24,12 @@ const MainLips = () => {
       <div style={{ marginTop: 40 }}>
         <SelfAppearance /> 
       </div>
+      <div id='ourServise' style={{ marginTop: 80 }}>
+          <WordInMiddleOfLine value={"מעניקה למטופלות שלי הכל"} />
+        </div>
+        <div style={{ marginTop: 80 }}>
+        <VidowWork />
+        </div>
       <div style={{ marginTop: 60 }}>
         <WordInMiddleOfLine value={"בואי נדבר"} />
       </div>
