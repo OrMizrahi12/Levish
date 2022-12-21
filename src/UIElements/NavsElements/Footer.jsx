@@ -21,6 +21,9 @@ const Footer = () => {
                     <a href='#' className='footerLinks' onClick={() => navigate("/Freckels")} >נמשים</a>
                     <a href='#' className='footerLinks' onClick={() => navigate("/Lips")}>שפתיים</a>
                     <a href='#' className='footerLinks' onClick={() => navigate("/ContactUs")}>צרי קשר</a>
+                    <hr />
+                    <a className='footerLinks' onClick={() => window.open("https://or-mizrahi.netlify.app/")}>Made by Or mizrahi{" >>"}</a>
+
                 </footer>
 
             </div>

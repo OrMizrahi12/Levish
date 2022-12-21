@@ -1,9 +1,11 @@
 import '../../css/Forms/Form.css'
 import emailjs from 'emailjs-com';
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const Form = () => {
 
+    const navigate = useNavigate();
     const [name, setName] = useState("");
     const [phone, setPhone] = useState("");
     const [msg, setMsg] = useState()
@@ -12,8 +14,12 @@ const Form = () => {
     const sendEmail = (e) => {
         e.preventDefault();
         emailjs.sendForm('levish_serv_123', 'template_d7ysblw', e.target, 'culR41Zl-6zqTpLls')
-            .then(() => setMsg("🖤 תודה! הפרטים שלך נשלחו בהצלחה ונחזור אלייך בהקדם"),
-                (error) => setMsg("סליחה, אנחנו חושבים שמשהו לא בסדר אצלנו. נסי ליצור קשר בדרכים אחרות"));
+            .then(() => {
+                setMsg("🖤 תודה! הפרטים שלך נשלחו בהצלחה ונחזור אלייך בהקדם")
+                navigate("/TanksPage");
+            },
+            (error) => setMsg("סליחה, אנחנו חושבים שמשהו לא בסדר אצלנו. נסי ליצור קשר בדרכים אחרות"));
+
     }
 
     return (
