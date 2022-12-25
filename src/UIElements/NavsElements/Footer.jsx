@@ -6,8 +6,8 @@ const Footer = () => {
 
     const navigate = useNavigate();
 
-    return (
-        <>
+    return ( 
+       <>
             <br />
             <div className='footerWraper'>
                 <footer class="footer" >
@@ -23,7 +23,6 @@ const Footer = () => {
                     <a href='#' className='footerLinks' onClick={() => navigate("/ContactUs")}>צרי קשר</a>
                     <hr />
                     <a className='footerLinks' onClick={() => window.open("https://or-mizrahi.netlify.app/")}>Made by Or mizrahi{" >>"}</a>
-
                 </footer>
 
             </div>

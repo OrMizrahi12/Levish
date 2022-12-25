@@ -13,22 +13,29 @@ import MyAccordion from '../../UIElements/TxtElements/MyAccordion '
 import Steps from '../../UIElements/Cards/Steps'
 import SelfAppearance from '../../UIElements/Cards/SelfAppearance'
 import VidowWork from '../../UIElements/VideoElements/VidowWork'
-
+import MainImg from '../../UIElements/Cards/MainImg'
+import mainImg from '../../Images/FrecelsImges/FImgjpg.jpg'
 
 
 const MainFreckels = () => {
   return (
     <div>
-      <MainDescription title={"היי את"} description={txtSolve} perfectSolution={"הפתרון המושלם עבורך"} />
-      <ShowGallery arr={ArrImajes} />
+      <MainDescription title={"איפור קבוע נמשים"} description={txtSolve} perfectSolution={"הפתרון המושלם עבורך"} />
+      <MainImg MainImg={mainImg} />
       <div style={{ marginTop: 40 }}>
         <SelfAppearance /> 
       </div>
       <div id='ourServise' style={{ marginTop: 80 }}>
-          <WordInMiddleOfLine value={"מעניקה למטופלות שלי הכל"} />
+      <WordInMiddleOfLine value={"הצצה לטיפולים"} />
         </div>
         <div style={{ marginTop: 80 }}>
         <VidowWork />
+        </div>
+        <div id='ourServise' style={{ marginTop: 80 }}>
+          <WordInMiddleOfLine value={"הלקוחות המרוצות שלי"} />
+        </div>
+        <div style={{ marginTop: 80 }}>
+        <ShowGallery arr={ArrImajes} />
         </div>
       <div style={{ marginTop: 80 }}>
         <WordInMiddleOfLine value={"בואי נדבר"} />

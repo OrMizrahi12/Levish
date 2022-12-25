@@ -6,7 +6,7 @@ const CallMeBtn = ({ActionText}) => {
     const navigate = useNavigate();
     return (
         <div className='elementCenter' id='contactAnchor' >
-            <a href='tel:+972556869701'>
+            <a href='tel:+97255-6869701'>
             <button id='MyCallMeBtn' className='MyCallMeBtn m-3' onClick={()=> navigate("/TanksPage")}>
                 {ActionText}
             </button>

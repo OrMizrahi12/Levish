@@ -25,7 +25,7 @@ const Form = () => {
     return (
         <form className="MainCard" onSubmit={sendEmail}>
             <div className='elementCenter'>
-                <p className='formTitle' >אשאירי פרטים ואחזור אלייך</p>
+                <p className='formTitle' >השאירי פרטים ואחזור אלייך</p>
                 <input onChange={e => setName(e.target.value)} placeholder="שם מלא" type="text" className="textInput" name="name" />
                 <input onChange={e => setPhone(e.target.value)} placeholder="טלפון" type="number" className="textInput" name="phone" />
                 <input className='BtnForm' type="submit" value="שלחי" disabled={!submitSend} />

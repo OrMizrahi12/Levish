@@ -41,7 +41,7 @@ const Home = () => {
           <SelfAppearance />
         </div>
         <div id='ourServise' style={{ marginTop: 80 }}>
-          <WordInMiddleOfLine value={"מעניקה למטופלות שלי הכל"} />
+          <WordInMiddleOfLine value={"הצצה לטיפול"} />
         </div>
         <div style={{ marginTop: 80 }}>
         <VidowWork />

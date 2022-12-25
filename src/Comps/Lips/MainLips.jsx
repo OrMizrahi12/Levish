@@ -15,20 +15,27 @@ import { txtSolve } from '../../Data/Lips/TxtLips'
 import { ArrImajesLips } from '../../Data/Lips/Cust_L_arr'
 import SelfAppearance from '../../UIElements/Cards/SelfAppearance'
 import VidowWork from '../../UIElements/VideoElements/VidowWork'
-
+import MainImg from '../../UIElements/Cards/MainImg'
+import mainImg from '../../Images/LipsImges/LImg.jpg'
 const MainLips = () => {
   return (
     <div>
-      <MainDescription title={"היי את"} description={txtSolve}  perfectSolution={"הפתרון המושלם עבורך"} />
-      <ShowGallery arr={ArrImajesLips} />
-      <div style={{ marginTop: 40 }}>
+      <MainDescription title={"איפור קבוע שפתיים"} description={txtSolve}  perfectSolution={"בדיוק כמו שאת חולמת"} />
+      <MainImg MainImg={mainImg} />
+            <div style={{ marginTop: 40 }}>
         <SelfAppearance /> 
       </div>
       <div id='ourServise' style={{ marginTop: 80 }}>
-          <WordInMiddleOfLine value={"מעניקה למטופלות שלי הכל"} />
+          <WordInMiddleOfLine value={"הצצה לטיפולים"} />
         </div>
         <div style={{ marginTop: 80 }}>
         <VidowWork />
+        </div>
+        <div id='ourServise' style={{ marginTop: 80 }}>
+          <WordInMiddleOfLine value={"הלקוחות המרוצות שלי"} />
+        </div>
+        <div style={{ marginTop: 80 }}>
+        <ShowGallery arr={ArrImajesLips} />
         </div>
       <div style={{ marginTop: 60 }}>
         <WordInMiddleOfLine value={"בואי נדבר"} />
