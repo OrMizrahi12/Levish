@@ -15,6 +15,7 @@ import SelfAppearance from '../../UIElements/Cards/SelfAppearance'
 import VidowWork from '../../UIElements/VideoElements/VidowWork'
 import MainImg from '../../UIElements/Cards/MainImg'
 import mainImg from '../../Images/FrecelsImges/FImgjpg.jpg'
+import LevishPopup from '../../UIElements/Cards/LevishPopup'
 
 
 const MainFreckels = () => {
@@ -80,6 +81,9 @@ const MainFreckels = () => {
         <WordInMiddleOfLine value={"או"} />
         <Form />
       </div>
+      <div style={{marginTop: 100}}>
+        <LevishPopup /> 
+       </div>
     </div>
   )
 }

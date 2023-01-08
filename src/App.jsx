@@ -39,8 +39,9 @@ function App() {
         <div onClick={()=> navigate("/TanksPage")}>
         <WhatsAppBtn />
         </div>
-          
+
         <Footer />
+
       </div>
     </>
   );

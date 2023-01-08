@@ -1,0 +1,83 @@
+.popup-box{
+    
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100vh;
+    overflow:hidden;
+    
+}
+body.active-popup{
+    overflow-y: hidden;
+}
+
+.box{
+ position: relative;
+ width: 80%;
+ height: 350px;
+ background-color: aliceblue; 
+ border-radius: 0px;
+ padding: 10px;
+ margin: auto;
+ background-color:  rgb(228,167,171);
+ margin-top: 40%;
+ 
+}
+
+.PopUpTitle{
+ text-align: center;
+ margin-top: 0px;
+ font-size: 40px;
+ font-weight: 200;
+}
+.PopUpTitle1{
+    text-align: center;
+ margin-top: 60px;
+ font-size: 30px;
+ font-weight: 160;
+}
+.popUpTxt{
+    padding-top: 30px;
+    text-align: center;
+   font-size: 19px;
+}
+.markPriceTxtPopup{
+    border-bottom: 3px solid rgb(25,100,57) ;
+    font-weight: bold;
+}
+.btnClose{
+    background-color: transparent;
+    border: none;
+    float: right;
+}
+.wrapBtnPopUp{
+    text-align: center;
+}
+.whatsAppBtnPopUp{
+ border-radius: 20px;
+ box-shadow: 0px 2px 5px black;
+ border: none;
+ background-color: rgb(25,100,57) ;
+ width: 120px;
+ height: 40px;
+ margin: 10px;
+}
+.callMeBtnPopUp{
+    box-shadow: 0px 2px 5px black;
+    border: none;
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+    margin: 10px;
+    background-color: rgb(160, 160, 160) ;
+
+}
+@media only screen and (min-width: 800px) {
+    
+    .box{
+        margin-top: 10%;
+        width: 400px;
+    }
+  }
